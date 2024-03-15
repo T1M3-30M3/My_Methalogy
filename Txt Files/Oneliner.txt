@@ -1,0 +1,14 @@
+Install Go:
+wget https://go.dev/dl/go1.20.5.linux-amd64.tar.gz && tar -zxvf go1.20.5.linux-amd64.tar.gz -C /usr/local/ && mkdir ~/.go && GOROOT=/usr/local/go && GOPATH=~/.go && PATH=$PATH:$GOROOT/bin:$GOPATH/bin && update-alternatives --install "/usr/bin/go" "go" "/usr/local/go/bin/go" 0 && update-alternatives --set go /usr/local/go/bin/go;
+
+wget https://go.dev/dl/go1.22.0.linux-amd64.tar.gz && tar -zxvf go1.22.0.linux-amd64.tar.gz -C /usr/local/ && mkdir ~/.go && GOROOT=/usr/local/go && GOPATH=~/.go && PATH=$PATH:$GOROOT/bin:$GOPATH/bin && update-alternatives --install "/usr/bin/go" "go" "/usr/local/go/bin/go" 0 && update-alternatives --set go /usr/local/go/bin/go;
+
+
+Install Bug Hunting tools:
+sudo go install -v github.com/tomnomnom/anew@latest && sudo cp /root/go/bin/anew /usr/bin/ | sudo go install github.com/bp0lr/gauplus@latest && sudo cp /root/go/bin/gauplus /usr/bin/ | sudo go install github.com/tomnomnom/httprobe@latest  && sudo cp /root/go/bin/httprobe /usr/bin/ | sudo go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest  && sudo cp /root/go/bin/dnsx /usr/bin/  | sudo go install github.com/mrco24/mrco24-lfi@latest  && sudo cp /root/go/bin/mrco24-lfi /usr/bin/  | sudo go install github.com/mrco24/mrco24-blaind_sql@latest  && sudo cp /root/go/bin/mrco24-blaind_sql /usr/bin/ | sudo go install github.com/mrco24/parameters@latest  && sudo cp /root/go/bin/parameters /usr/bin/| sudo go install github.com/mrco24/open-redirect@latest  && sudo cp /root/go/bin/open-redirect /usr/bin/ | sudo go install github.com/mrco24/mrco24-error-sql@latest  && sudo cp /root/go/bin/mrco24-error-sql /usr/bin/ | go get -u github.com/cheggaaa/pb/v3 | sudo go install github.com/mrco24/web-archive@latest && sudo cp /root/go/bin/web-archive /usr/bin/ | sudo go install github.com/mrco24/time-sql@latest && sudo cp /root/go/bin/time-sql /usr/bin/ | sudo go install -v github.com/LukaSikic/subzy@latest && sudo cp /root/go/bin/subzy /usr/bin/Install Bug Hunting tools:
+
+git clone https://github.com/mrco24/OK-VPS.git && cd OK-VPS && chmod +x okvps.sh && ./okvps.sh | git clone https://github.com/leebaird/discover && cd OK-VPS && chmod +x * && sudo ./discover.sh | git clone https://github.com/0xRahad/Huntigo && cd Huntigo && bash huntigo.sh |  git clone https://github.com/JoyGhoshs/0install && cd 0install && chmod +x * && bash 0install -h && bash 0install -i top-bughunt-tools && bash 0install -i all | git clone https://github.com/xnl-h4ck3r/waymore.git && cd waymore && sudo pip3 install -r requirements.txt && sudo python setup.py install && python3 waymore.py -h | git clone https://github.com/devanshbatham/ParamSpider && cd paramspider && sudo pip3 install -r requirements.txt && sudo python setup.py install && paramspider --help | git clone https://github.com/devanshbatham/OpenRedireX && cd OpenRedireX && sudo chmod +x setup.sh && bash setup.sh 
+ 
+
+
+
