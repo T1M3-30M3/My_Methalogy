@@ -29,8 +29,8 @@ git clone https://github.com/hmaverickadams/breach-parse && cd breach-parse && s
 git clone https://github.com/davidtavarez/pwndb && cd pwndb && virtualenv venv && source venv/bin/activate && pip install -r requirements.txt && python pwndb.py -h 
 
 go install -v github.com/tomnomnom/anew@latest && go install github.com/bp0lr/gauplus@latest && go install github.com/tomnomnom/httprobe@latest && go install -v github.com/projectdiscovery/dnsx/cmd/dnsx@latest && go install github.com/mrco24/mrco24-lfi@latest && go install github.com/mrco24/mrco24-blaind_sql@latest && go install github.com/mrco24/parameters@latest && go install github.com/mrco24/open-redirect@latest && go install github.com/mrco24/mrco24-error-sql@latest && go get -u github.com/cheggaaa/pb/v3 | go install github.com/mrco24/web-archive@latest && go install github.com/mrco24/time-sql@latest && go install -v github.com/LukaSikic/subzy@latest
-sudo cp * /usr/local/bin
-sudo cp * /usr/bin
+
+sudo cp * /usr/local/bin && sudo cp * /usr/bin
 
 
 
